@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Нотатки</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script defer src="main.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="modal-window-add">
+		<input id="h-text-input" placeholder="заголовок.." type="text" name="">
+		<textarea id="text-input" placeholder="текст нотатки..."></textarea>
+		<input id="add" type="button" value="додати" name="">
+	</div>
+	<div class="modal-window-correct">
+		<input id="h-text-input-c" placeholder="заголовок.." type="text" name="">
+		<textarea id="text-input-c" placeholder="текст нотатки..."></textarea>
+		<input id="correct" type="button" value="виправити" name="">
+	</div>
+	<div class="main">
+		<div class="notes">
+			<div class="create-note">
+				<h1 id="show-modal-add">+</h1>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
